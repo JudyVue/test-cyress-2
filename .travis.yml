@@ -5,5 +5,5 @@ cache:
   directories:
     - ~/.npm
     - ~/.cache
-before_install:
+before_script:
     - "npm run pretest"
