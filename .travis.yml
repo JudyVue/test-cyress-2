@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+before_install:
+    - "npm run pretest"
