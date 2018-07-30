@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import AuthForm from '../auth-form/auth-form';
 import * as authActions from '../../actions/auth';
 import * as routes from '../../lib/routes';
-
+//
 
 // This component will be connected to the store
 const mapStateToProps = state => ({
